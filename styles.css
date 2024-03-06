@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    width: 100%;
+    height: 80px;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+}
+#logo a img{
+
+    width: 43px;
+    height: 37px;
+    padding: 8px 16px 8px 16px;
+}
+#theme a img{
+    width: 18px;
+    height: 18px;
+    padding: 11px 15px;
+}
+nav a{
+    width: 70.516px;
+    height: 24px;
+    padding: 10px;
+    /* margin: 5px; */
+    font-size: 15px;
+    text-decoration: none;
+}
+nav a img{
+    width: 10px;
+    height: 10px;
+}
+#goal{
+    border: 1px solid black;
+    height: 25px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+}
+#goal a{
+text-decoration: none;
+}
+/* #goal a img{
+    position: relative;
+    width: auto !important;
+    text-align: center;
+    height: 30px;
+    top: 22%;
+    margin-top: -21px;
+    border-radius: 25px;
+    padding: 8px 4px;
+} */
+#search input{
+    width: 118px;
+    height: 24px;
+    padding: 5px 40px 5px 15px;
+    margin: 3px;
+    border: 1px solid black;
+    border-radius: 25px;
+}
+section{
+    width: 100%;
+    height: 500px;
+    background-image: url(img/background_in_space.gif);
+}
