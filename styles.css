@@ -34,13 +34,16 @@ nav a img{
 }
 #goal{
     border: 1px solid black;
-    height: 25px;
-    border-radius: 20px;
+    height: 42px;
+    border-radius: 30px;
     display: flex;
     flex-direction: row;
 }
 #goal a{
-text-decoration: none;
+    text-decoration: none;
+    width: 118px;
+    height: 24px;
+    padding: 5px 40px 5px 15px;
 }
 /* #goal a img{
     position: relative;
@@ -60,8 +63,56 @@ text-decoration: none;
     border: 1px solid black;
     border-radius: 25px;
 }
+#centerdetail{
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
 section{
     width: 100%;
     height: 500px;
     background-image: url(img/background_in_space.gif);
+}
+section h1{
+    color: aliceblue;
+    text-align: center;
+
+}
+section h2{
+    color: lightgoldenrodyellow;
+    text-align: center;
+}
+form.example input[type=text]{
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid #282A35;
+    border-radius: 25px;
+    float: left;
+    width: 30%;
+    padding-left: 25px;
+    background: white;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    border-right: 0;
+    border-right: 1px solid #04AA6D;
+    outline: 0;
+    position: relative;
+    right: -450px;
+    top: 30px;
+}
+form.example button {
+    border-radius: 25px;
+    float: left;
+    width: 5%;
+    padding: 20px;
+    background: #04AA6D;
+    color: white;
+    font-size: 17px;
+    border: 1px solid #282A35;
+    border-left: none;
+    cursor: pointer;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    position: relative;
+    right: -450px;
+    top: 30px;
 }
